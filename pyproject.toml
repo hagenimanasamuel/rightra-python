@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rightra"
+version = "0.1.0"
+description = "Server-side helpers for Rightra: upload tokens, presigned storage URLs, and the Rightra API client for Django, Flask, and any Python backend."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "LicenseRef-Proprietary"
+authors = [{ name = "OLIVIUUS Ltd", email = "contact@oliviuus.com" }]
+keywords = ["rightra", "oliviuus", "drm", "watermark", "video", "django", "flask"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Framework :: Django",
+    "Framework :: Flask",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://docs.oliviuus.com/rightra/python"
+Source = "https://github.com/hagenimanasamuel/rightra-python"
+Repository = "https://github.com/hagenimanasamuel/rightra-python"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rightra = ["py.typed"]
