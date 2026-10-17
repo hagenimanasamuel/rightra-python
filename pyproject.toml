@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rightra"
-version = "0.1.1"
+version = "0.1.2"
 description = "Server-side helpers for Rightra: upload tokens, presigned storage URLs, and the Rightra API client for Django, Flask, and any Python backend."
 readme = "README.md"
 requires-python = ">=3.9"
