@@ -1,6 +1,6 @@
 # Rightra for Python
 
-Server-side helpers for Rightra, the digital content protection and rights intelligence product by Oliviuus.
+Server-side helpers for Rightra by Oliviuus.
 
 This package does the backend side only: mint short-lived upload tokens, sign S3 and R2 uploads, and call the Rightra API from a Django, Flask, or any Python backend. The browser player is loaded from a script tag on the page. It is not part of this package.
 

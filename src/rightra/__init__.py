@@ -18,7 +18,7 @@ from .storage import sign_r2_put, sign_s3_put
 from .upload import DEFAULT_TTL as UPLOAD_TOKEN_DEFAULT_TTL
 from .upload import mint_upload_token, verify_upload_token
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = [
     "Client",
     "RightraError",
